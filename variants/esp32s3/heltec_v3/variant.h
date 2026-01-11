@@ -3,8 +3,8 @@
 #define USE_SSD1306 // Heltec_v3 has a SSD1306 display
 
 #define RESET_OLED RST_OLED
-#define I2C_SDA SDA_OLED // I2C pins for this board
-#define I2C_SCL SCL_OLED
+#define I2C_SDA 19 // I2C pins for this board
+#define I2C_SCL 20
 
 // Enable secondary bus for external periherals
 #define I2C_SDA1 SDA
